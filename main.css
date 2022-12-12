@@ -77,14 +77,17 @@ nav{
 }
 .name p:nth-child(1),.name .details{
 	color:#6c707c;
-	font-size: 20px;
+	font-size: 30px;
 }
 .name h1{
 	font-family:Poppins;
-	font-size: 40px;
+	font-size: 50px;
 	margin:0px;
 	letter-spacing: 3px;
 	color:#292929;
+}
+.name h2{
+	font-size: 30px;
 }
 .name .image-container{
     display: flex;
@@ -103,7 +106,7 @@ nav{
 }
 .social i{
 	color:rgba(18,17,17,0.40);
-	font-size: 20px;
+	font-size: 25px;
 }
 .social a:hover i{
 	color:#0a8cf5;
