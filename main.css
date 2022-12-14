@@ -134,7 +134,7 @@ nav{
 }
 .about-text h2{
 	font-size: 3rem;
-	color:rgba(18,17,17,0.40);
+	color: #1cc7d0;
 	font-weight: 400;
 }
 .about-text h1,h2{
@@ -291,7 +291,7 @@ box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
 transform:translateY(-10px);
 transition: all ease 0.3s;
 }
-#portfolio{
+#skills{
 width:100%;
 box-sizing: border-box;
 font-family: calibri;
@@ -325,8 +325,8 @@ position: relative;
  
 }
 .p-box:hover{
-	transform:translateY(-10px);
-	transition: all ease 0.3s;
+	transition: all ease 0.8s;
+    transform: translateY(-5px);
 }
 .p-box img{
 width: 100%;
@@ -352,12 +352,45 @@ grid-gap: 10px;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+
 	display:none;
+}
+.overlay-text button{
+	color: #000000;
+}
+.overlay-text button{
+	font-size: 2.2rem;
+	margin: 0px;
+	padding: 0px;
+	letter-spacing: 2px;
+	height: 40px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+}
+.overlay-text .fcc-btn:hover{
+	Transform: scale(1.1);
+	background-color: #09d1f6;
 }
 .p-box:hover .overlay-text{
 	display: flex;
 	
 }
+
+.fcc-btn {
+	background-color: #566456;
+	color: white;
+	padding: 15px 25px;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  .fcc-btn:hover {
+	background-color: #223094;
+  }
+
+
 #contact-btn{
 	width: 100%;
 	display: flex;
