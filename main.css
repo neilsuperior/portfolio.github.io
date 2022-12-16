@@ -270,6 +270,7 @@ max-width: 80%;
 -webkit-box-orient: vertical;
 overflow: hidden;
 text-overflow: ellipsis;
+align-items: center;
 }
 .s-b-text a:hover{
 color:rgba(255,255,255,0.50)
